@@ -64,41 +64,6 @@ const default_config = {
             },
           ],
         },
-        {
-          name: "media",
-          links: [
-            {
-              name: "уп",
-              url: "https://www.pravda.com.ua",
-              icon: "news",
-              icon_color: "#a6e3a1",
-            },
-            {
-              name: "mil.in.ua",
-              url: "https://mil.in.ua",
-              icon: "badge-filled",
-              icon_color: "#fab387",
-            },
-            {
-              name: "куток",
-              url: "https://kutok.io",
-              icon: "border-radius",
-              icon_color: "#f38ba8",
-            },
-            {
-              name: "ґрунт",
-              url: "https://grnt.media",
-              icon: "eye-bolt",
-              icon_color: "#89b4fa",
-            },
-            {
-              name: "village",
-              url: "https://www.village.com.ua",
-              icon: "home-2",
-              icon_color: "#cba6f7",
-            },
-          ],
-        },
       ],
     },
     {
@@ -120,24 +85,12 @@ const default_config = {
               icon: "circle-triangle",
               icon_color: "#fab387",
             },
-            {
-              name: "wakatime",
-              url: "https://wakatime.com/dashboard",
-              icon: "24-hours",
-              icon_color: "#f38ba8",
-            },
-          ],
+                      ],
         },
         {
           name: "challenges",
           links: [
-            {
-              name: "kaggle",
-              url: "https://www.kaggle.com/volodymyrpivoshenko",
-              icon: "brain",
-              icon_color: "#a6e3a1",
-            },
-            {
+                       {
               name: "leetcode",
               url: "https://leetcode.com",
               icon: "code-plus",
@@ -148,35 +101,6 @@ const default_config = {
               url: "https://stackoverflow.com",
               icon: "brand-stackoverflow",
               icon_color: "#f38ba8",
-            },
-          ],
-        },
-        {
-          name: "blogs",
-          links: [
-            {
-              name: "dou",
-              url: "https://dou.ua",
-              icon: "brand-prisma",
-              icon_color: "#a6e3a1",
-            },
-            {
-              name: "hackernews",
-              url: "https://news.ycombinator.com",
-              icon: "brand-redhat",
-              icon_color: "#fab387",
-            },
-            {
-              name: "uber research",
-              url: "https://eng.uber.com/category/articles",
-              icon: "brand-uber",
-              icon_color: "#f38ba8",
-            },
-            {
-              name: "google research",
-              url: "https://blog.research.google",
-              icon: "hexagon-letter-g",
-              icon_color: "#89b4fa",
             },
           ],
         },
@@ -273,3 +197,4 @@ const default_config = {
 };
 
 const CONFIG = new Config(default_config);
+
