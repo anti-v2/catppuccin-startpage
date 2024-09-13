@@ -3,39 +3,21 @@ let saved_config = JSON.parse(localStorage.getItem("CONFIG"));
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: "London",
+    location: "Pube",
     scale: "C",
   },
   clock: {
     format: "h:i p",
     iconColor: "#f38ba8",
   },
-  disabled: [],
-  fastlink: "https://app.raindrop.io",
-  openLastVisitedTab: true,
+  
   tabs: [
     {
       name: "myself",
       background_url: "src/img/banners/cbg-9.gif",
       categories: [
         {
-          name: "bookmarks",
-          links: [
-            {
-              name: "raindrop",
-              url: "https://app.raindrop.io",
-              icon: "droplet-bolt",
-              icon_color: "#a6e3a1",
-            },
-            {
-              name: "musicForProgramming();",
-              url: "https://musicforprogramming.net/sixty",
-              icon: "binary-tree",
-              icon_color: "#fab387",
-            },
-          ],
-        },
-        {
+          
           name: "workspace",
           links: [
             {
